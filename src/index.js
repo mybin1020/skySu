@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-import CommentList from "./ch_05/CommentList";
+import Mainpage from "./skySu/Mainpage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <CommentList />
+    <Mainpage />
   </React.StrictMode>
 );
 
